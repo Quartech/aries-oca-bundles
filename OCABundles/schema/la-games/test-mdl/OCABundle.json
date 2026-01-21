@@ -2,27 +2,31 @@
   {
     "capture_base": {
       "attributes": {
-        "Issued by": "Text",
-        "Name": "Text",
-        "DOB": "DateTime",
-        "Photo": "Image",
-        "EXP": "DateTime",
-        "ISS": "DateTime"
+        "given_name": "Text",
+        "family_name": "Text",
+        "birth_date": "DateTime",
+        "age_over_21": "Text",
+        "age_over_45": "Text"
       },
       "classification": "",
       "digest": "EO-jq9sXmeAJZlVjvjcDJVODYEwVS0xZJ0r7uWg6N2yC",
-      "flagged_attributes": ["Issued by", "DOB", "EXP", "ISS", "Name", "Photo"],
+      "flagged_attributes": [
+        "given_name",
+        "family_name",
+        "birth_date",
+        "age_over_21",
+        "age_over_45"
+      ],
       "type": "spec/capture_base/1.0"
     },
     "overlays": [
       {
         "attribute_character_encoding": {
-          "Issued by": "utf-8",
-          "Name": "utf-8",
-          "DOB": "utf-8",
-          "EXP": "utf-8",
-          "ISS": "utf-8",
-          "Photo": "utf-8"
+          "given_name": "utf-8",
+          "family_name": "utf-8",
+          "birth_date": "utf-8",
+          "age_over_21": "utf-8",
+          "age_over_45": "utf-8"
         },
         "capture_base": "EO-jq9sXmeAJZlVjvjcDJVODYEwVS0xZJ0r7uWg6N2yC",
         "default_character_encoding": "utf-8",
@@ -32,12 +36,11 @@
       {
         "attribute_categories": [],
         "attribute_labels": {
-          "Issued by": "Issued By",
-          "Name": "Name",
-          "DOB": "Date of Birth",
-          "EXP": "Expiration Date",
-          "ISS": "Issue Date",
-          "Photo": "Photo"
+          "given_name": "Given Name",
+          "family_name": "Family Name",
+          "birth_date": "Date of Birth",
+          "age_over_21": "Age Over 21",
+          "age_over_45": "Age Over 45"
         },
         "capture_base": "EO-jq9sXmeAJZlVjvjcDJVODYEwVS0xZJ0r7uWg6N2yC",
         "category_labels": {},
@@ -47,12 +50,11 @@
       },
       {
         "attribute_information": {
-          "Issued by": "Issuer of the MDL",
-          "Name": "Name of the MDL holder",
-          "DOB": "Date of birth of the holder",
-          "EXP": "Expiration date of the MDL",
-          "ISS": "Issuance date for the MDL",
-          "Photo": "Photo of the MDL holder"
+          "given_name": "First name of the MDL holder",
+          "family_name": "Last name of the MDL holder",
+          "birth_date": "Date of birth of the holder",
+          "age_over_21": "Indicates if holder is over 21 years old",
+          "age_over_45": "Indicates if holder is over 45 years old"
         },
         "capture_base": "EO-jq9sXmeAJZlVjvjcDJVODYEwVS0xZJ0r7uWg6N2yC",
         "digest": "EF5p7J_N4eJbo_QZHakpBRq0Wu1GwPF7tLs-_-4oKEQj",
@@ -60,7 +62,9 @@
         "type": "spec/overlays/information/1.0"
       },
       {
-        "attribute_formats": {},
+        "attribute_formats": {
+          "birth_date": "YYYY-MM-DD"
+        },
         "capture_base": "EO-jq9sXmeAJZlVjvjcDJVODYEwVS0xZJ0r7uWg6N2yC",
         "digest": "EKB0Y-FdhLWIYXZsojYGxmKR6oEz_vrMS8_kEpmEoXSi",
         "type": "spec/overlays/format/1.0"
@@ -89,10 +93,10 @@
         "background_image": "https://i0.wp.com/www.socalearnosethroat.com/wp-content/uploads/2021/05/banner-home3.jpg?fit=2560%2C1040&ssl=1",
         "primary_background_color": "rgb(17, 38, 179)",
         "secondary_background_color": "rgb(36, 117, 206)",
-        "primary_attribute": "Name",
-        "secondary_attribute": "",
-        "issued_date_attribute": "ISS",
-        "expiry_date_attribute": "EXP"
+        "primary_attribute": "given_name",
+        "secondary_attribute": "family_name",
+        "issued_date_attribute": "",
+        "expiry_date_attribute": ""
       }
     ]
   }
