@@ -1,9 +1,11 @@
-{
-  "type": "spec/overlays/branding/1.0",
-  "logo": "./lametro-logo.svg",
-  "primary_background_color": "#000000",
-  "secondary_background_color": "#1A1A1A",
-
-  "primary_attribute": "com.lametro.volunteer:role",
-  "expiry_date_attribute": "com.lametro.volunteer:expiry_date"
-}
+[
+  {
+    "type": "aries/overlays/branding/1.0",
+    "capture_base": "*",
+    "logo": "./assets/LAMetroLogo.png",
+    "primary_background_color": "#000000",
+    "secondary_background_color": "#11AA1A",
+    "primary_attribute": "com.lametro.volunteer:role",
+    "expiry_date_attribute": "com.lametro.volunteer:expiry_date"
+  }
+]
