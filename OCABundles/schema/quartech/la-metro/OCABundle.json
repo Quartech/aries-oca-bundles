@@ -1,0 +1,72 @@
+[
+  {
+    "capture_base": {
+      "attributes": {
+        "com.lametro.volunteer:given_name": "Text",
+        "com.lametro.volunteer:family_name": "Text",
+        "com.lametro.volunteer:role": "Text",
+        "com.lametro.volunteer:expiry_date": "Date"
+      },
+      "classification": "mDoc",
+      "digest": "TBD_CAPTURE_BASE_SAID",
+      "flagged_attributes": [
+        "com.lametro.volunteer:given_name",
+        "com.lametro.volunteer:family_name",
+        "com.lametro.volunteer:role",
+        "com.lametro.volunteer:expiry_date"
+      ],
+      "type": "spec/capture_base/1.0"
+    },
+    "overlays": [
+      {
+        "attribute_character_encoding": {
+          "com.lametro.volunteer:given_name": "utf-8",
+          "com.lametro.volunteer:family_name": "utf-8",
+          "com.lametro.volunteer:role": "utf-8",
+          "com.lametro.volunteer:expiry_date": "utf-8"
+        },
+        "capture_base": "TBD_CAPTURE_BASE_SAID",
+        "default_character_encoding": "utf-8",
+        "digest": "TBD_CHARACTER_ENCODING_SAID",
+        "type": "spec/overlays/character_encoding/1.0"
+      },
+      {
+        "capture_base": "TBD_CAPTURE_BASE_SAID",
+        "type": "aries/overlays/branding/1.0",
+        "digest": "TBD_BRANDING_SAID",
+        "logo": "./assets/LAMetroLogo.png",
+        "background_image_slice": "",
+        "background_image": "",
+        "primary_background_color": "#000000",
+        "secondary_background_color": "#1A1A1A",
+        "primary_attribute": "com.lametro.volunteer:role",
+        "secondary_attribute": "",
+        "issued_date_attribute": "",
+        "expiry_date_attribute": "com.lametro.volunteer:expiry_date"
+      },
+      {
+        "attribute_categories": [],
+        "attribute_labels": {
+          "com.lametro.volunteer:given_name": "First name",
+          "com.lametro.volunteer:family_name": "Last name",
+          "com.lametro.volunteer:role": "Role",
+          "com.lametro.volunteer:expiry_date": "Expiry date"
+        },
+        "capture_base": "TBD_CAPTURE_BASE_SAID",
+        "category_labels": {},
+        "digest": "TBD_LABEL_EN_SAID",
+        "language": "eng",
+        "type": "spec/overlays/label/1.0"
+      },
+      {
+        "capture_base": "TBD_CAPTURE_BASE_SAID",
+        "description": "Los Angeles Metro Volunteer Services",
+        "digest": "TBD_META_EN_SAID",
+        "issuer": "Los Angeles Metro Volunteer Services",
+        "language": "eng",
+        "name": "LA Volunteer (mDoc)",
+        "type": "spec/overlays/meta/1.0"
+      }
+    ]
+  }
+]
