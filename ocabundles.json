@@ -42,5 +42,15 @@
   "QuartechEmployeeIdCredential": {
     "path": "OCABundles/schema/quartech/quartech-employee-id/OCABundle.json",
     "sha256": "599d97906e445993d6874c0958dcafc624cc740ae9b4bd184d9e6942cd885434"
+  },
+  "com.lametro.volunteer": {
+    "path": "OCABundles/schema/quartech/la-metro/OCABundle.json",
+    "sha256": "70bfe9e84eed348a9a1f33d81c417917fcbfb8cdd5c5adf8b01334ef48e09d4f",
+    "format": "mso_mdoc"
+  },
+  "LAVolunteerCredential": {
+    "path": "OCABundles/schema/quartech/la-metro/OCABundle.json",
+    "sha256": "70bfe9e84eed348a9a1f33d81c417917fcbfb8cdd5c5adf8b01334ef48e09d4f",
+    "format": "mso_mdoc"
   }
 }
