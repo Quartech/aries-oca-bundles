@@ -60,8 +60,8 @@
         "capture_base": "E9uC9Xz6F8Eh5d4r8Uo54rI0vXqHGU3uybxI4W1-4yqE",
         "digest": "EJ8qGZWpavdDd5NmjXgvzCEwbL3DZlKzNQBy99rLHnyI",
         "logo": "./assets/LAMetroLogo.png",
-        "primary_background_color": "#000000",
-        "secondary_background_color": "#1A1A1A",
+        "primary_background_color": "#111111",
+        "secondary_background_color": "#555555",
         "primary_attribute": "com.lametro.volunteer:role",
         "expiry_date_attribute": "com.lametro.volunteer:expiry_date"
       },
@@ -70,7 +70,7 @@
         "capture_base": "E9uC9Xz6F8Eh5d4r8Uo54rI0vXqHGU3uybxI4W1-4yqE",
         "digest": "EUqG6h0EfN3xJuzQOZUpTtFQz9lbrFgPiC2RPsOLdJ04",
         "language": "en",
-        "name": "LA Metro Volunteer (mDoc)",
+        "name": "LA Metro Volunteer",
         "description": "LA Metro Volunteer Credential",
         "issuer": "Los Angeles Metro"
       }
