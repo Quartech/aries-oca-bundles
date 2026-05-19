@@ -2,14 +2,14 @@
   {
     "capture_base": {
       "attributes": {
-        "com.subway.voucher:entitlement": "Text",
-        "com.subway.voucher:expiry_date": "Date"
+        "com.subway:entitlement": "Text",
+        "com.subway:expiry_date": "Date"
       },
       "classification": "mDoc",
       "digest": "E9uC9Xz6F8Eh5d4r8Uo54rI0vXqHGU3uybxI4W1-4yqE",
       "flagged_attributes": [
-        "com.subway.voucher:entitlement",
-        "com.subway.voucher:expiry_date"
+        "com.subway:entitlement",
+        "com.subway:expiry_date"
       ],
       "type": "spec/capture_base/1.0"
     },
@@ -20,7 +20,7 @@
         "digest": "EPY6eJ8wkcyV4XJr47FJ0oKgyv0sOASjofT7y3wPcg3E",
         "default_character_encoding": "utf-8",
         "attribute_character_encoding": {
-          "com.subway.voucher:entitlement": "utf-8"
+          "com.subway:entitlement": "utf-8"
         }
       },
       {
@@ -29,8 +29,8 @@
         "digest": "EHyUO-Ms3tnRP4NiBmTI4eRLuKIUQmzqYnZ0PkZsv3tA",
         "language": "en",
         "attribute_labels": {
-          "com.subway.voucher:entitlement": "Entitlement",
-          "com.subway.voucher:expiry_date": "Expiry Date"
+          "com.subway:entitlement": "Entitlement",
+          "com.subway:expiry_date": "Expiry Date"
         },
         "attribute_categories": [],
         "category_labels": {}
@@ -41,8 +41,8 @@
         "digest": "ECbF1D9hF1wl40_4h5XdTh0X_pY-AaLBhQ3Re8R5ILis",
         "language": "en",
         "attribute_information": {
-          "com.subway.voucher:entitlement": "Volunteer’s entitlement",
-          "com.subway.voucher:expiry_date": "Credential expiration date"
+          "com.subway:entitlement": "Volunteer’s entitlement",
+          "com.subway:expiry_date": "Credential expiration date"
         }
       },
       {
@@ -52,8 +52,8 @@
         "logo": "data:image/png;base64,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",
         "primary_background_color": "#008938",
         "secondary_background_color": "#01a344",
-        "primary_attribute": "com.subway.voucher:entitlement",
-        "expiry_date_attribute": "com.subway.voucher:expiry_date"
+        "primary_attribute": "com.subway:entitlement",
+        "expiry_date_attribute": "com.subway:expiry_date"
       },
       {
         "type": "spec/overlays/meta/1.0",
