@@ -1,0 +1,79 @@
+[
+  {
+    "capture_base": {
+      "attributes": {
+        "com.lametro.volunteer:given_name": "Text",
+        "com.lametro.volunteer:family_name": "Text",
+        "com.lametro.volunteer:role": "Text",
+        "com.lametro.volunteer:expiry_date": "Date"
+      },
+      "classification": "mDoc",
+      "digest": "E9uC9Xz6F8Eh5d4r8Uo54rI0vXqHGU3uybxI4W1-4yqE",
+      "flagged_attributes": [
+        "com.lametro.volunteer:given_name",
+        "com.lametro.volunteer:family_name",
+        "com.lametro.volunteer:role",
+        "com.lametro.volunteer:expiry_date"
+      ],
+      "type": "spec/capture_base/1.0"
+    },
+    "overlays": [
+      {
+        "type": "spec/overlays/character_encoding/1.0",
+        "capture_base": "E9uC9Xz6F8Eh5d4r8Uo54rI0vXqHGU3uybxI4W1-4yqE",
+        "digest": "EPY6eJ8wkcyV4XJr47FJ0oKgyv0sOASjofT7y3wPcg3E",
+        "default_character_encoding": "utf-8",
+        "attribute_character_encoding": {
+          "com.lametro.volunteer:given_name": "utf-8",
+          "com.lametro.volunteer:family_name": "utf-8",
+          "com.lametro.volunteer:role": "utf-8"
+        }
+      },
+      {
+        "type": "spec/overlays/label/1.0",
+        "capture_base": "E9uC9Xz6F8Eh5d4r8Uo54rI0vXqHGU3uybxI4W1-4yqE",
+        "digest": "EHyUO-Ms3tnRP4NiBmTI4eRLuKIUQmzqYnZ0PkZsv3tA",
+        "language": "en",
+        "attribute_labels": {
+          "com.lametro.volunteer:given_name": "First Name",
+          "com.lametro.volunteer:family_name": "Last Name",
+          "com.lametro.volunteer:role": "Role",
+          "com.lametro.volunteer:expiry_date": "Expiry Date"
+        },
+        "attribute_categories": [],
+        "category_labels": {}
+      },
+      {
+        "type": "spec/overlays/information/1.0",
+        "capture_base": "E9uC9Xz6F8Eh5d4r8Uo54rI0vXqHGU3uybxI4W1-4yqE",
+        "digest": "ECbF1D9hF1wl40_4h5XdTh0X_pY-AaLBhQ3Re8R5ILis",
+        "language": "en",
+        "attribute_information": {
+          "com.lametro.volunteer:given_name": "Volunteer’s first name",
+          "com.lametro.volunteer:family_name": "Volunteer’s last name",
+          "com.lametro.volunteer:role": "Volunteer role assigned by LA Metro",
+          "com.lametro.volunteer:expiry_date": "Credential expiration date"
+        }
+      },
+      {
+        "type": "aries/overlays/branding/1.0",
+        "capture_base": "E9uC9Xz6F8Eh5d4r8Uo54rI0vXqHGU3uybxI4W1-4yqE",
+        "digest": "EJ8qGZWpavdDd5NmjXgvzCEwbL3DZlKzNQBy99rLHnyI",
+        "logo": "./assets/LAMetroLogo.png",
+        "primary_background_color": "#111111",
+        "secondary_background_color": "#555555",
+        "primary_attribute": "com.lametro.volunteer:role",
+        "expiry_date_attribute": "com.lametro.volunteer:expiry_date"
+      },
+      {
+        "type": "spec/overlays/meta/1.0",
+        "capture_base": "E9uC9Xz6F8Eh5d4r8Uo54rI0vXqHGU3uybxI4W1-4yqE",
+        "digest": "EUqG6h0EfN3xJuzQOZUpTtFQz9lbrFgPiC2RPsOLdJ04",
+        "language": "en",
+        "name": "LA Metro Volunteer",
+        "description": "LA Metro Volunteer Credential",
+        "issuer": "Los Angeles Metro"
+      }
+    ]
+  }
+]
